@@ -301,7 +301,7 @@ footer {
     <label for="menu" align="right">Меню</label>
     <div class="menu-content">
         <ul>
-            <li><a href="/schools">Главная</a></li>
+            <li><a href="/">Главная</a></li>
             <li><a href="/schoolboys">Каталог</a></li>
             <li><a href="избранные.html">Избранные</a></li>
             <li><a href="корзина.html">Корзина</a></li>
