@@ -117,7 +117,11 @@ input:checked+label {
 }
 
 .card-header h4{
-    text-shadow: none;
+    /* text-shadow: none; */
+    text-shadow: black 1px 0 1px,
+    black -1px 0 1px,
+    black 0px 1px 1px,
+    black 0px -1px 1px;
 }
 
 footer {
