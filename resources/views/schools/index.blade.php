@@ -116,7 +116,9 @@ input:checked+label {
     background-image: url(/menu-png/cross.png);
 }
 
-
+.card-header h4{
+    text-shadow: none;
+}
 
 footer {
     width: 100%;
