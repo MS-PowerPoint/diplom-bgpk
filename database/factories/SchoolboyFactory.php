@@ -63,7 +63,7 @@ class SchoolboyFactory extends Factory
             'class'=>fake()->numberBetween($min = 1, $max = 11),
             'estimation'=>fake()->randomElement($array = array ('5','4','3')),
             'school_id'=>fake()->randomElement($schoolID),
-            // 'img'=>fake()->randomElement($imgs),
+            'img'=>fake()->randomElement($imgs),
         ];
     }
 }
