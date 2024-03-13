@@ -237,9 +237,9 @@ footer {
 
 <a href="/" class="btn btn-primary" >☜(ﾟヮﾟ☜)BACK</a>
 <a href="/schools/create" class="btn btn-primary" >CREATE💹</a>
-<div class="row row-cols-1 row-cols-md-3 g-4" align="center" >
+<div class="row row-cols-1 row-cols-md-3 g-4"  >
     @foreach($schools as $school)
-    <a href="" style="padding: 0px; margin: 30px;">
+    <a href="" style="padding: 0px; margin: 20px;">
 
         <div class="card text-center" >
             <img class="img-fluid" style="height: 200px;" src="{{asset('storage/img/categori-img/' . $school->desk)}}" alt="{{$school->desk}}">
