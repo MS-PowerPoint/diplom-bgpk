@@ -4,8 +4,8 @@
 
 @section('content')
 
-<a href="/" class="btn btn-primary" >☜(ﾟヮﾟ☜)BACK</a>
-<a href="/schools/create" class="btn btn-primary" >CREATE💹</a>
+<!-- <a href="/" class="btn btn-primary" >☜(ﾟヮﾟ☜)BACK</a>
+<a href="/schools/create" class="btn btn-primary" >CREATE💹</a> -->
 <div class="row row-cols-12 row-cols-md-4 g-4 "  >
     @foreach($schools as $school)
     <a href="/schoolboys" style="padding: 0px; margin: 60px; margin-bottom: 50px;">

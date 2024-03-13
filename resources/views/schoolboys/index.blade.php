@@ -3,8 +3,8 @@
 @section('title', 'Каталог')
 
 @section('content')
-<a href="/" class="btn btn-primary" >☜(ﾟヮﾟ☜)BACK</a>
-<a href="/schoolboys/create" class="btn btn-primary" >CREATE💹</a>
+<!-- <a href="/" class="btn btn-primary" >☜(ﾟヮﾟ☜)BACK</a>
+<a href="/schoolboys/create" class="btn btn-primary" >CREATE💹</a> -->
 <div class="row">
 <div class="row row-cols-1 row-cols-md-3 g-4">
     @foreach($schoolboys as $schoolboy)

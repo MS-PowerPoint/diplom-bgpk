@@ -3,14 +3,14 @@
 @section('title', '{{$schoolboy->name}}')
 
 @section('content')
-<a href="/" class="btn btn-primary" >☜(ﾟヮﾟ☜)BACK</a>
-<a href="/schoolboys/create" class="btn btn-primary" >CREATE💹</a>
+<a href="/schoolboys" class="btn btn-primary" >Назад</a>
+<!-- <a href="/schoolboys/create" class="btn btn-primary" >CREATE💹</a> -->
 
 
 <div class="card mb-3" style="max-width: 800px">
   <div class="row g-6">
     <div class="col-md-5">
-      <img src="{{asset('storage/img/space3/' . $schoolboy->img)}}" class="img-fluid rounded-center" alt="{{$schoolboy->img}}">
+      <img src="{{asset('storage/img/space3/' . $schoolboy->img)}}" class="img-fluid rounded-start" alt="{{$schoolboy->img}}">
     </div>
     <div class="col-md-7">
       <div class="card-body">
