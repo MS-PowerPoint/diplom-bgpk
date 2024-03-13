@@ -241,7 +241,7 @@ footer {
     @foreach($schools as $school)
     <a href="">
 
-        <div class="card text-center" >
+        <div class="card text-center" style="margin-bottom: 30px;">
             <img class="img-fluid" style="height: 200px;" src="{{asset('storage/img/categori-img/' . $school->desk)}}" alt="{{$school->desk}}">
             <div class="card-header" style="width: 100%">
                 <h4 >{{$school->name}}</h4>
