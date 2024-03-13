@@ -125,12 +125,38 @@ input:checked+label {
     background-image: url(/menu-png/cross.png);
 }
 
-.card-header h4{
-    /* text-shadow: none; */
-    text-shadow: black 1px 0 1px,
-    black -1px 0 1px,
-    black 0px 1px 1px,
-    black 0px -1px 1px;
+section h4 {
+    font-weight: bolder;
+    text-shadow: none;
+}
+
+section h3{
+    font-weight: bolder;
+    text-shadow: none;
+}
+
+
+section h2{
+    font-weight: bolder;
+    text-shadow: none;
+}
+
+
+section h1{
+    font-weight: bolder;
+    text-shadow: none;
+}
+
+
+section h5{
+    font-weight: bolder;
+    text-shadow: none;
+}
+
+
+section h6{
+    font-weight: bolder;
+    text-shadow: none;
 }
 
 footer {
@@ -289,7 +315,7 @@ footer {
     <p>Что то пошло не так</p>
 </div>
 @endif
-<section>
+<section class="content">
 @yield('content')
 </section>
 <footer>
