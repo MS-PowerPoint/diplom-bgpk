@@ -19,8 +19,9 @@ class SchoolboyFactory extends Factory
     {
     $schoolIDs = DB::table('schools')->select('id')->get()->toArray();
     $schoolID=[];
+
     $imgs=[];
-    $imgs=['space3_01.JPG',
+    $imgs[]=['space3_01.JPG',
     'space3_02.JPG',
     'space3_03.JPG',
     'space3_04.JPG',
@@ -50,6 +51,7 @@ class SchoolboyFactory extends Factory
     'space3_28.JPG',
     'space3_29.JPG',
     'space3_30.JPG'];
+    
     foreach($schoolIDs as $schools)
     {
         $schoolID[]=$schools->id;
