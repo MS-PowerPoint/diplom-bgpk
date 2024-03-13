@@ -14,17 +14,17 @@
 <header>
 
 <div class="language">
-    <img src="{{asset('img/images_lang/lang__ru.png')}}" alt="ru" data-google-lang="ru" class="language__img">
-    <img src="{{asset('img/images_lang/lang__en.png')}}" alt="en" data-google-lang="en" class="language__img">
-    <img src="{{asset('img/images_lang/lang__de.png')}}" alt="de" data-google-lang="de" class="language__img">
-    <img src="{{asset('img/images_lang/lang__fr.png')}}" alt="fr" data-google-lang="fr" class="language__img">
-    <img src="{{asset('img/images_lang/lang__pt.png')}}" alt="pt" data-google-lang="pt" class="language__img">
-    <img src="{{asset('img/images_lang/lang__es.png')}}" alt="es" data-google-lang="es" class="language__img">
-    <img src="{{asset('img/images_lang/lang__it.png')}}" alt="it" data-google-lang="it" class="language__img">
-    <img src="{{asset('img/images_lang/lang__zh.png')}}" alt="zh" data-google-lang="zh-CN" class="language__img">
-    <img src="{{asset('img/images_lang/lang__ar.png')}}" alt="ar" data-google-lang="ar" class="language__img">
-    <img src="{{asset('img/images_lang/lang__nl.png')}}" alt="nl" data-google-lang="nl" class="language__img">
-    <img src="{{asset('img/images_lang/lang__sv.png')}}" alt="sv" data-google-lang="sv" class="language__img">
+    <img src="{{asset('storage/img/images_lang/lang__ru.png')}}" alt="ru" data-google-lang="ru" class="language__img">
+    <img src="{{asset('storage/img/images_lang/lang__en.png')}}" alt="en" data-google-lang="en" class="language__img">
+    <img src="{{asset('storage/img/images_lang/lang__de.png')}}" alt="de" data-google-lang="de" class="language__img">
+    <img src="{{asset('storage/img/images_lang/lang__fr.png')}}" alt="fr" data-google-lang="fr" class="language__img">
+    <img src="{{asset('storage/img/images_lang/lang__pt.png')}}" alt="pt" data-google-lang="pt" class="language__img">
+    <img src="{{asset('storage/img/images_lang/lang__es.png')}}" alt="es" data-google-lang="es" class="language__img">
+    <img src="{{asset('storage/img/images_lang/lang__it.png')}}" alt="it" data-google-lang="it" class="language__img">
+    <img src="{{asset('storage/img/images_lang/lang__zh.png')}}" alt="zh" data-google-lang="zh-CN" class="language__img">
+    <img src="{{asset('storage/img/images_lang/lang__ar.png')}}" alt="ar" data-google-lang="ar" class="language__img">
+    <img src="{{asset('storage/img/images_lang/lang__nl.png')}}" alt="nl" data-google-lang="nl" class="language__img">
+    <img src="{{asset('storage/img/images_lang/lang__sv.png')}}" alt="sv" data-google-lang="sv" class="language__img">
 </div>
 <div align="center">
     <img class="logo" src=" {{asset('img/png/logo-no-background.png')}} " alt="asd">
