@@ -10,7 +10,7 @@
 <div class="card mb-3" style="max-width: 800px">
   <div class="row g-6">
     <div class="col-md-5">
-      <img src="{{asset('storage/img/space3/' . $schoolboy->img)}}" class="img-fluid rounded-start" alt="{{$schoolboy->img}}">
+      <img src="{{asset('storage/img/space3/' . $schoolboy->img)}}" class="img-fluid rounded-center" alt="{{$schoolboy->img}}">
     </div>
     <div class="col-md-7">
       <div class="card-body">
