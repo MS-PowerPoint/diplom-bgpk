@@ -159,6 +159,13 @@ section h6{
     text-shadow: none;
 }
 
+
+section p{
+    font-weight: 900;
+    text-shadow: none;
+    color:rgb(100, 100, 100);
+}
+
 footer {
     width: 100%;
     background-color: rgb(50, 50, 50);

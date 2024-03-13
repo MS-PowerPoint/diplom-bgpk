@@ -14,13 +14,13 @@
       <img src="{{asset('storage/img/space3/' . $schoolboy->img)}}" class="card-img-top" alt="{{$schoolboy->img}}">
       <div class="card-body">
 
-        <h5 class="card-title">{{$schoolboy->name}}</h5>
-        <p class="card-text">{{$schoolboy->school->name}}</p>
-        <p class="card-text">{{$schoolboy->estimation}}</p>
-        <p class="card-text">{{$schoolboy->surname}}</p>
-        <p class="card-text">{{$schoolboy->patronymic}}</p>
-        <p class="card-text">${{$schoolboy->class}}</p>
-        <a href="schoolboys/{{$schoolboy->id}}" class="btn btn-primary" > Подробнее😲</a>
+        <h4 class="card-title">Название: {{$schoolboy->name}}</h4>
+        <p class="card-text">Категория: {{$schoolboy->school->name}}</p>
+        <p class="card-text">Описание: {{$schoolboy->patronymic}}</p>
+        <p class="card-text">Количество на складе: {{$schoolboy->estimation}}</p>
+        <p class="card-text">Поставщик: {{$schoolboy->surname}} -</p>
+        <p class="card-text">Цена: ${{$schoolboy->class}}</p>
+        <a href="schoolboys/{{$schoolboy->id}}" class="btn btn-primary" > Подробнее</a>
       </div>
     </div>
   </div>
