@@ -27,7 +27,7 @@
     <img src="{{asset('storage/img/images_lang/lang__sv.png')}}" alt="sv" data-google-lang="sv" class="language__img">
 </div>
 <div align="center">
-    <img class="logo" src=" {{asset('img/png/logo-no-background.png')}} " alt="asd">
+    <img class="logo" src=" {{asset('storage/img/png/logo-no-background.png')}} " alt="asd">
 </div>
 <div class="collapsible-menu" align="center">
     <input type="checkbox" id="menu">
@@ -76,12 +76,12 @@
     <div class="footer-column two">
         <div class="Connection-method-footer" align="center">
             <h5>Мы в соц. Сетях</h5>
-            <img src="{{asset('img/icons8/icons8-telegram-app-48.png')}}" alt="telegram">
-            <img src="{{asset('img/icons8/icons8-facebook-новый-48.png')}}" alt="facebook">
-            <img src="{{asset('img/icons8/icons8-vk-в-круге-48.png')}}" alt="vk">
-            <img src="{{asset('img/icons8/icons8-whatsapp-48.png')}}" alt="whatsapp">
-            <img src="{{asset('img/icons8/icons8-youtube-48.png')}}" alt="youtube">
-            <img src="{{asset('img/icons8/icons8-твиттер-48.png')}}" alt="твиттер">
+            <img src="{{asset('storage/img/icons8/icons8-telegram-app-48.png')}}" alt="telegram">
+            <img src="{{asset('storage/img/icons8/icons8-facebook-новый-48.png')}}" alt="facebook">
+            <img src="{{asset('storage/img/icons8/icons8-vk-в-круге-48.png')}}" alt="vk">
+            <img src="{{asset('storage/img/icons8/icons8-whatsapp-48.png')}}" alt="whatsapp">
+            <img src="{{asset('storage/img/icons8/icons8-youtube-48.png')}}" alt="youtube">
+            <img src="{{asset('storage/img/icons8/icons8-твиттер-48.png')}}" alt="твиттер">
             <h5>Иконки от <a target="_blank" href="https://icons8.com">Icons8</a></h5>
 
         </div>
@@ -93,16 +93,16 @@
 
         <div class="Payment-method-footer" align="center">
             <h5>Способы оплаты:</h5>
-            <img src="{{asset('img/Payment-method-png/Discover.png')}}" alt="Discover">
-            <img src="{{asset('img/Payment-method-png/Maestro.png')}}" alt="Maestro">
-            <img src="{{asset('img/Payment-method-png/MasterCard.png')}}" alt="MasterCard">
-            <img src="{{asset('img/Payment-method-png/PayPal.png')}}" alt="PayPal">
-            <img src="{{asset('img/Payment-method-png/Qiwi.png')}}" alt="Qiwi">
-            <img src="{{asset('img/Payment-method-png/Sberbank-online.png')}}" alt="Sberbank-online">
-            <img src="{{asset('img/Payment-method-png/Visa.png')}}" alt="Visa">
-            <img src="{{asset('img/Payment-method-png/WebMoney.png')}}" alt="WebMoney">
-            <img src="{{asset('img/Payment-method-png/Yandex.png')}}" alt="Yandex">
-            <img src="{{asset('img/Payment-method-png/American Express.png')}}" alt="American Express">
+            <img src="{{asset('storage/img/Payment-method-png/Discover.png')}}" alt="Discover">
+            <img src="{{asset('storage/img/Payment-method-png/Maestro.png')}}" alt="Maestro">
+            <img src="{{asset('storage/img/Payment-method-png/MasterCard.png')}}" alt="MasterCard">
+            <img src="{{asset('storage/img/Payment-method-png/PayPal.png')}}" alt="PayPal">
+            <img src="{{asset('storage/img/Payment-method-png/Qiwi.png')}}" alt="Qiwi">
+            <img src="{{asset('storage/img/Payment-method-png/Sberbank-online.png')}}" alt="Sberbank-online">
+            <img src="{{asset('storage/img/Payment-method-png/Visa.png')}}" alt="Visa">
+            <img src="{{asset('storage/img/Payment-method-png/WebMoney.png')}}" alt="WebMoney">
+            <img src="{{asset('storage/img/Payment-method-png/Yandex.png')}}" alt="Yandex">
+            <img src="{{asset('storage/img/Payment-method-png/American Express.png')}}" alt="American Express">
         </div>
     </div>
 
