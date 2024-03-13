@@ -7,12 +7,12 @@
 <a href="/schoolboys/create" class="btn btn-primary" >CREATE💹</a>
 
 
-<div class="card mb-3" style="max-width: 540px;">
-  <div class="row g-0">
-    <div class="col-md-4">
+<div class="card mb-3" style="max-width: 800px">
+  <div class="row g-6">
+    <div class="col-md-5">
       <img src="{{asset('storage/img/space3/' . $schoolboy->img)}}" class="img-fluid rounded-start" alt="{{$schoolboy->img}}">
     </div>
-    <div class="col-md-8">
+    <div class="col-md-7">
       <div class="card-body">
         <h4 class="card-title">Название: {{$schoolboy->name}}</h4>
         <p class="card-text">Категория: {{$schoolboy->school->name}}</p>
