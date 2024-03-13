@@ -19,7 +19,8 @@ class SchoolboyFactory extends Factory
     {
     $schoolIDs = DB::table('schools')->select('id')->get()->toArray();
     $schoolID=[];
-    $img=['space3_01.JPG',
+    $imgs=[];
+    $imgs=['space3_01.JPG',
     'space3_02.JPG',
     'space3_03.JPG',
     'space3_04.JPG',
@@ -60,7 +61,7 @@ class SchoolboyFactory extends Factory
             'class'=>fake()->numberBetween($min = 1, $max = 11),
             'estimation'=>fake()->randomElement($array = array ('5','4','3')),
             'school_id'=>fake()->randomElement($schoolID),
-            'img'=>fake()->randomElement($img),
+            'img'=>fake()->randomElement($imgs),
         ];
     }
 }
