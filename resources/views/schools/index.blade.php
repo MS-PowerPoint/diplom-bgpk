@@ -235,11 +235,13 @@ footer {
     @foreach($schools as $school)
     <div class="col-6  p-3">
         <div class="card text-center p-3">
+            
+            <img src="{{asset('storage/img/categori-img/' . $school->desk)}}" alt="{{$school->desk}}">
         <div class="card-header p-3">
-            <h1>Категория № {{$school->id}}</h1>
+            <h1>{{$school->name}}</h1>
         </div>
 
-        <div class="body-body">
+        <!-- <div class="body-body">
             <h5 class="card-title">{{$school->name}}</h5>
             <p class="card-text">{{$school->desk}}</p>
             <a href="schools/{{$school->id}}" class="btn btn-primary" > Подробнее😲</a>
@@ -252,7 +254,7 @@ footer {
             
             </form>
 
-        </div>
+        </div> -->
         </div>
     </div>   
     @endforeach
