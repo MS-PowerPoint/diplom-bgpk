@@ -237,8 +237,8 @@ footer {
         <div class="card text-center">
             
             <img class="img-fluid" style="height: 200px;" src="{{asset('storage/img/categori-img/' . $school->desk)}}" alt="{{$school->desk}}">
-            <div class="card-header">
-                <h4 style="width: 100%">{{$school->name}}</h4>
+            <div class="card-header" style="width: 100%">
+                <h4 >{{$school->name}}</h4>
             </div>
         </div>
 
