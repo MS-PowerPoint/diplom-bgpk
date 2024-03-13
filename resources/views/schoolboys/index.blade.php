@@ -7,15 +7,27 @@
 <a href="/schoolboys/create" class="btn btn-primary" >CREATE💹</a>
 <div class="row">
     @foreach($schoolboys as $schoolboy)
-    <div class="col-6  p-3">
+
+<div class="row row-cols-1 row-cols-md-3 g-4">
+  <div class="col">
+    <div class="card h-100">
+      <img src="{{asset('storage/img/space3/' . $$schoolboy->img)}}" class="card-img-top" alt="{{$schoolboy->img}}">
+      <div class="card-body">
+        <h5 class="card-title">{{$schoolboy->name}}</h5>
+        <p class="card-text">{{$schoolboy->desk}}</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+    <!-- <div class="col-6  p-3">
         <div class="card text-center p-3">
         <div class="card-header p-3">
             <h1>Ученик {{$schoolboy->name}}</h1>
         </div>
 
         <div class="body-body">
-            <h5 class="card-title">{{$schoolboy->id}}</h5>
-            <p class="card-text">{{$schoolboy->desk}}</p>
             <a href="schoolboys/{{$schoolboy->id}}" class="btn btn-primary" > Подробнее😲</a>
             <a href="schoolboys/{{$schoolboy->id}}/update" class="btn btn-primary" > Изменить✍</a>
             
@@ -28,7 +40,7 @@
 
         </div>
         </div>
-    </div>   
+    </div>    -->
     @endforeach
 </div>
 @endsection
