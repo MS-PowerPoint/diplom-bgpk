@@ -20,6 +20,7 @@ return new class extends Migration
             $table->string('class');
             $table->string('estimation');
             $table->foreignId('school_id');
+            $table->string('img');
             
 
         });

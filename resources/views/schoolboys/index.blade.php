@@ -1,6 +1,6 @@
 @extends('layouts.index')
 
-@section('title', 'Ученики')
+@section('title', 'Каталог')
 
 @section('content')
 <a href="/" class="btn btn-primary" >☜(ﾟヮﾟ☜)BACK</a>

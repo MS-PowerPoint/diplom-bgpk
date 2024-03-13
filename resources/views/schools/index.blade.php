@@ -1,6 +1,6 @@
 @extends('layouts.index')
 
-@section('title', 'Школы')
+@section('title', 'Главная')
 
 @section('content')
 
